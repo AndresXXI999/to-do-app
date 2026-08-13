@@ -3,7 +3,24 @@
 body {
 	width: 500px;
 	margin: auto;
-	border: 1px solid #000000;
 }
 
-.
+.container {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.container div {
+	width: 450px;
+	margin: 1px;
+	border: 1px solid gray;
+	text-align: center;
+}
+
+.createBtn {
+	color: green;
+}
